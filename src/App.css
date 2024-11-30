@@ -47,6 +47,15 @@ a {
   color: var(--blue);
 }
 
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
 /* header styles */
 
 .container-header {
@@ -152,7 +161,7 @@ a.btn-more:hover {
   .container-header {
     margin-top: 50px;
   }
-  
+
   .container-header img {
     width: 44%;
   }
@@ -186,6 +195,32 @@ a.btn-more:hover {
 
   .container-context section.middle .child {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .links-navbar {
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    height: 0px;
+    overflow: hidden;
+    width: 200px;
+    z-index: 10;
+    /* transition: height 0.3s ease-in-out; */
+  }
+
+  .links-navbar.open {
+    height: 300px;
+    padding: 20px;
   }
 }
 
