@@ -1,6 +1,7 @@
 import Navbar from './sections/Navbar'
 import Header from './sections/Header'
 import Context from './sections/Context'
+import Researchers from './sections/Researchers'
 import ResearchLines from './sections/ResearchLines'
 import Publishing from './sections/Publishing'
 import Symposium from './sections/Symposium'
@@ -48,6 +49,7 @@ export default function App() {
       <Navbar />
       <Header />
       <Context />
+      <Researchers />
       <ResearchLines />
 
       {/* ainda será separado */}

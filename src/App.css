@@ -247,6 +247,81 @@ a.btn-more:hover {
 }
 
 
+/* researchers styles */
+.carousel-container {
+  background-color: #D8DFF5;
+  padding: 8%;
+  padding-bottom: 4%;
+  /* Ajuste de cor */
+}
+
+.carousel-container-title {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.carousel-container .carousel-container-title h2 {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 66px;
+  color: #244BBC;
+}
+
+.carousel-container .carousel-container-title p {
+  max-width: 450px;
+}
+
+.carousel-container .card {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: .3s;
+}
+
+.carousel-container .card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-container .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.carousel-container .card .legend {
+  padding: 15px;
+}
+
+.carousel-container .card .legend h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.carousel-container .card .legend p {
+  font-size: 12px;
+  opacity: .7;
+}
+
+.swiper {
+  padding-bottom: 50px;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #000;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: #000;
+}
+
+
+
 /* footer styles */
 .footer-container {
   padding: 3% 7%;
@@ -318,7 +393,7 @@ a.btn-more:hover {
   .symposium-container .videos {
     gap: 25px;
   }
-  
+
 }
 
 @media screen and (max-width: 980px) {
