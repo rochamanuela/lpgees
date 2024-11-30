@@ -3,6 +3,7 @@ import Header from './sections/Header'
 import Context from './sections/Context'
 import ResearchLines from './sections/ResearchLines'
 import Publishing from './sections/Publishing'
+import Symposium from './sections/Symposium'
 
 import { Carousel } from './components'
 import './App.css'
@@ -51,6 +52,7 @@ export default function App() {
       {/* ainda será separado */}
       <Carousel items={items} />
       <Publishing />
+      <Symposium />
     </div>
   )
 }
