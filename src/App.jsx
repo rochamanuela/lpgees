@@ -4,6 +4,7 @@ import Context from './sections/Context'
 import ResearchLines from './sections/ResearchLines'
 import Publishing from './sections/Publishing'
 import Symposium from './sections/Symposium'
+import Footer from './sections/Footer'
 
 import { Carousel } from './components'
 import './App.css'
@@ -53,6 +54,7 @@ export default function App() {
       <Carousel items={items} />
       <Publishing />
       <Symposium />
+      <Footer />
     </div>
   )
 }

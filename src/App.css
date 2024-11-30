@@ -213,7 +213,7 @@ a.btn-more:hover {
   font-weight: 500;
   font-size: 44px;
   line-height: 66px;
-  color: #ffdf4f;
+  color: #ffb94f;
   /* color: #C8A200; */
   margin-bottom: 20px;
 }
@@ -246,6 +246,40 @@ a.btn-more:hover {
   border-radius: 15px;
 }
 
+
+/* footer styles */
+.footer-container {
+  padding: 3% 7%;
+}
+
+.footer-container p {
+  font-size: 14px;
+}
+
+.footer-container footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container footer .first-child {
+  gap: 30px;
+  align-items: center;
+  display: flex;
+}
+
+.footer-container footer .first-child p {
+  width: 223px;
+}
+
+.footer-container footer .middle-child a {
+  display: flex;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 0;
+}
+
 /* isso aqui precisa ser colocado em um arquivo separado */
 
 @media screen and (max-width: 1200px) {
@@ -255,6 +289,23 @@ a.btn-more:hover {
 
   .container-header img {
     width: 44%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .footer-container footer {
+    flex-direction: column;
+    /* align-items: flex-start; */
+    gap: 40px;
+  }
+
+  .footer-container footer .first-child {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer-container {
+    padding: 7% 7%;
   }
 }
 
