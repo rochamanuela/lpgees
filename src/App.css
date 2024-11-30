@@ -462,3 +462,11 @@ a.btn-more:hover {
     align-items: flex-start;
   }
 }
+
+@media screen and (max-width: 824px) {
+  .carousel-container-title {
+    flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+  }
+}
