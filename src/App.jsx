@@ -1,6 +1,7 @@
-import Navbar from './components/Navbar'
-import Header from './components/Header'
-import Context from './components/Context'
+import Navbar from './sections/Navbar'
+import Header from './sections/Header'
+import Context from './sections/Context'
+import ResearchLines from './sections/ResearchLines'
 import './App.css'
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
       <Navbar />
       <Header />
       <Context />
+      <ResearchLines />
     </div>
   )
 }

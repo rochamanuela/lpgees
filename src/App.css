@@ -114,7 +114,7 @@ a.btn-more:hover {
   display: flex;
   flex-direction: column;
   padding: 7%;
-  padding-bottom: 12%;
+  /* padding-bottom: 12%; */
   gap: 140px;
 }
 
@@ -152,7 +152,29 @@ a.btn-more:hover {
   width: 50%;
 }
 
+/* styles research lines */
 
+.research-lines-container {
+  padding: 7%;
+}
+
+.research-lines-container .cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.research-lines-container p.title {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 500;
+  /* transform: rotate(-90deg); */
+}
 
 
 /* isso aqui precisa ser colocado em um arquivo separado */
