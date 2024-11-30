@@ -2,6 +2,7 @@ import Navbar from './sections/Navbar'
 import Header from './sections/Header'
 import Context from './sections/Context'
 import ResearchLines from './sections/ResearchLines'
+import Publishing from './sections/Publishing'
 import './App.css'
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       <Header />
       <Context />
       <ResearchLines />
+      <Publishing />
     </div>
   )
 }

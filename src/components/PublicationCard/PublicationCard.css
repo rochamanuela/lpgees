@@ -1,0 +1,45 @@
+.publication-card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    width: auto;
+    min-width: 400px;
+    background: #fff;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.publication-card-container .icon {
+    background-color: #EF832B;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+}
+
+.publication-card-container .texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 280px;
+}
+
+.publication-card-container .texts p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: #D06712;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 10px;
+}

@@ -176,6 +176,30 @@ a.btn-more:hover {
   /* transform: rotate(-90deg); */
 }
 
+/* publishing styles */
+
+.publishing-container {
+  padding: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.publishing-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center
+}
+
+.publishing-container h1 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  margin-bottom: 50px;
+}
 
 /* isso aqui precisa ser colocado em um arquivo separado */
 
