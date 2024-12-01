@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Symposium() {
     return (
-        <div className="symposium-container">
+        <div className="symposium-container" id="symposium">
             <h1>Simpósios</h1>
             <p>Você sabe o que é um simpósio? Simpósio é um evento
                 acadêmico, científico ou profissional onde especialistas,

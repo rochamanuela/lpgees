@@ -21,7 +21,7 @@ export default function Carousel ({ items }) {
     }
 
     return (
-        <div className="carousel">
+        <div className="carousel" id="projects">
             <CarouselItem
                 title={items[currentIndex].title}
                 category={items[currentIndex].category}

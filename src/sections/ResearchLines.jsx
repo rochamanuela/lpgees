@@ -8,7 +8,7 @@ import IconHourGlass from '../assets/vectors/icon-hour-glass.svg'
 
 export default function ResearchLines() {
   return (
-    <div className="research-lines-container">
+    <div className="research-lines-container" id="lines">
       <p className="title">Linhas de Pesquisa</p>
       <div className="cards">
         <LineCard
