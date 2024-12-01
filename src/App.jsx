@@ -81,8 +81,6 @@ export default function App() {
       <Context />
       <Researchers />
       <ResearchLines />
-
-      {/* ainda será separado */}
       <Carousel items={items} />
       <Publishing />
       <Symposium />

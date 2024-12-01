@@ -545,4 +545,54 @@ a.btn-more:hover {
     align-items: center;
     justify-content: center;
   }
+
+  .carousel-container .carousel-container-title h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .container-context,
+  .carousel-container,
+  .research-lines-container,
+  .carousel,
+  .publishing-container,
+  .symposium-container,
+  .footer-container {
+    padding-top: 16%;
+    padding-bottom: 16%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .symposium-container .videos iframe {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .symposium-container .videos iframe {
+    height: 200px;
+  }
+
+  .container-header .texts h1 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .container-header .texts p.subtitle {
+    line-height: 22px;
+    font-size: 14px;
+  }
+
+  .publishing-container h1 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .carousel-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

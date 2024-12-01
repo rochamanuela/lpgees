@@ -26,7 +26,7 @@ export default function Context() {
                         <img src={Person} alt="" />
                         <div className="description">
                             <p><b>Público alvo</b></p>
-                            <p>Profissionais do Núcleo de Atendimento às Pessoas com Necessidades Educacionais Específicas (NAPNE) e demais membros da comunidade acadêmica</p>
+                            <p>Membros da comunidade acadêmica</p>
                         </div>
                     </div><br />
                     <div className="highlights">
