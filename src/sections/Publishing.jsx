@@ -16,7 +16,7 @@ export default function Publishing() {
                 />
                 <PublicationCard
                     title="Educação Especial em Manaus: história, políticas e serviços"
-                    link="https://drive.google.com/file/d/19J9Mocda6zoX2WzXKs1yvaLbDtI88vjh/view?usp=sharing"
+                    link="https://drive.google.com/file/d/1hExs9sXdUdV9qsRRSkCs4veI5cEh6JLF/view"
                 />
                 <PublicationCard
                     title="Pessoas com deficiência egressas da EJA: narrativas sobre a escola, família e transição para o mundo do trabalho"
